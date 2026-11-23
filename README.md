@@ -4,10 +4,6 @@ RSA-Sakura Driver 的 Windows 纯绿色免安装版本（基于 Qt 5.15 构建�
 
 Windows out-of-the-box portable version of RSA-Sakura Driver (Built with Qt 5.15, compatible with Windows 7 / 8 / 10 / 11).
 
-<p align="center">
-  <img src="RSA-Sakura-Qt5-Win 屏幕快照 2026-11-23 21.44.28)" width="100%" alt="樱花加密器">
-</p>
-
 ---
 
 ## 🚀 快速开始 (Quick Start)

@@ -60,7 +60,7 @@ RSA-Sakura 拥有极其强悍的跨平台能力。底层核心（`xrsaoapp.sw` �
 | **Linux ARM64** | ✅ | ✅ | **Driver：Qt6 版**（需系统安装 Qt6 库） |
 | **Linux x64 (Linux 18.04 +)** | ✅ | ✅ | **Driver：Qt5-Linux + 完整依赖包** |
 | **Windows x64 (Win7～11)** | ✅ | ✅ | **Driver：Qt5-Win 纯绿色免安装包** |
-| **Windows x64 (WinXP)** | ✅ | ❌ |  |
+| **Windows x86 (WinXP)** | ✅ | ❌ |  |
 | **Windows ARM64** | ❌ | ❌ |  |
 | **任意 Linux 服务器 (无图形界面)** | ✅ | - | 直接在命令行终端中使用樱花🌸加密。 |
 

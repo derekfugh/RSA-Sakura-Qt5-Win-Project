@@ -56,7 +56,7 @@ RSA-Sakura 拥有极其强悍的跨平台能力。底层核心（`xrsaoapp.sw` �
 | 平台 / 架构 | 核心引擎 (CLI) | 图形界面 (Driver GUI) | 获取方式 / 备注 |
 | :--- | :---: | :---: | :--- |
 | **macOS (Apple Silicon)** | ✅ | ✅ | **RSA-Sakura-Driver：Xcode 原生版** |
-| **macOS (Intel)** | ✅ | ❌ |  |
+| **macOS (Intel)** | ✅ | ❌ / 🛠️  | 虚拟机 virtual machine + 樱花🌸  |
 | **Linux ARM64** | ✅ | ✅ | **RSA-Sakura-Qt：Qt6 版**（需系统安装 Qt6 库） |
 | **Linux x64 (Ubuntu 18.04 + / glibc 2.27+)** | ✅ | ✅ | **RSA-Sakura-Qt5-Linux：Qt5 版 + 完整依赖包** |
 | **Windows x64 (Win7～11)** | ✅ | ✅ | **RSA-Sakura-Qt5-Win：Qt5 版（内置完整依赖包）** |
@@ -64,4 +64,4 @@ RSA-Sakura 拥有极其强悍的跨平台能力。底层核心（`xrsaoapp.sw` �
 | **Windows ARM64** | ❌ | ❌ |  |
 | **任意 Linux 服务器 (无图形界面)** | ✅ | - | 直接在命令行终端中使用樱花🌸加密。 |
 
-*(注：✅ 代表完美支持，❌ 代表不支持，🛠️ 代表需要一定开发基础自行编译)*
+*(注：✅ 代表完美原生支持，❌ 代表原生不支持，🛠️ 代表需要需要通过虚拟机或云的（跨平台）方式实现支持*

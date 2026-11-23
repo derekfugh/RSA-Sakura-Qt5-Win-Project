@@ -55,11 +55,11 @@ RSA-Sakura 拥有极其强悍的跨平台能力。底层核心（`xrsaoapp.sw` �
 
 | 平台 / 架构 | 核心引擎 (CLI) | 图形界面 (Driver GUI) | 获取方式 / 备注 |
 | :--- | :---: | :---: | :--- |
-| **macOS (Apple Silicon)** | ✅ | ✅ | **Xcode 原生版** |
-| **macOS (Intel)** | ✅ | ❌ | **Xcode 原生版** |
-| **Linux ARM64 (树莓派/ARM服务器)** | ✅ | ✅ | **Qt6 版**（需系统安装 Qt6 库） |
-| **Linux x64 (Ubuntu/Debian)** | ✅ | ✅ | **Qt5-Linux + 完整依赖包** |
-| **Windows x64 (Win7~11)** | ✅ | ✅ | **Qt5-Win 纯绿色免安装包** |
+| **macOS (Apple Silicon)** | ✅ | ✅ | **Driver：Xcode 原生版** |
+| **macOS (Intel)** | ✅ | ❌ |  |
+| **Linux ARM64 (树莓派/ARM服务器)** | ✅ | ✅ | **Driver：Qt6 版**（需系统安装 Qt6 库） |
+| **Linux x64 (Ubuntu/Debian)** | ✅ | ✅ | **Driver：Qt5-Linux + 完整依赖包** |
+| **Windows x64 (Win7~11)** | ✅ | ✅ | **Driver：Qt5-Win 纯绿色免安装包** |
 | **Windows x64 (WinXP)** | ✅ | ❌ |  |
 | **Windows ARM64** | ❌ | ❌ |  |
 | **任意 Linux 服务器 (无图形界面)** | ✅ | ❌ | 直接在终端中调用底层命令，无需任何图形库。 |

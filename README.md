@@ -1,6 +1,6 @@
 # RSA-Sakura-Qt5-Win-Project
 
-RSA-Sakura Driver 的 Windows 纯绿色免安装版本（基于 Qt 5.15 构建，兼容 Windows 7 / 8 / 10 / 11）。
+RSA-Sakura Driver 的 Windows 安装版本（基于 Qt 5.15 构建，兼容 Windows 7 / 8 / 10 / 11，内置完整依赖包）。
 
 Windows out-of-the-box portable version of RSA-Sakura Driver (Built with Qt 5.15, compatible with Windows 7 / 8 / 10 / 11).
 

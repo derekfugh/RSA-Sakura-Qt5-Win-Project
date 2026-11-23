@@ -46,3 +46,20 @@ Windows out-of-the-box portable version of RSA-Sakura Driver (Built with Qt 5.15
 
 ## 💻 源码说明 (Source Code)
 本仓库目前仅提供编译后的可直接运行版本。如需查看 Qt 源码，请移步 [RSA-Sakura-Qt (macOS/Linux)](链接到你的源代码仓库)。
+
+---
+
+## 🌸 满血樱花：全平台支持矩阵 (Platform Support)
+
+RSA-Sakura 拥有极其强悍的跨平台能力。底层核心（`xrsaoapp.sw` 等）完全基于纯命令行，无需任何 GUI 环境即可在任意服务器或终端上运行；结合 Driver GUI，我们提供了开箱即用的全平台桌面体验。
+
+| 平台 / 架构 | 核心引擎 (CLI) | 图形界面 (Driver GUI) | 获取方式 / 备注 |
+| :--- | :---: | :---: | :--- |
+| **macOS (Apple Silicon / Intel)** | ✅ | ✅ | **Xcode 原生版**（本仓库） |
+| **Windows x64 (Win7~11)** | ✅ | ✅ | **Qt5 纯绿色免安装包**（[前往下载](#)） |
+| **Linux x64 (Ubuntu/Debian)** | ✅ | ✅ | **Qt5 完整依赖包**（[前往下载](#)） |
+| **Linux ARM64 (树莓派/ARM服务器)** | ✅ | ✅ | **Qt6 版**（需系统安装 Qt6 库） |
+| **Windows ARM64** | ✅ | 🛠️ (需自行编译) | **纯命令行即可运行**。如需 GUI，请下载本仓库源码，使用 MSVC 或 MinGW ARM 工具链自行编译。 |
+| **任意 Linux 服务器 (无图形界面)** | ✅ | ❌ | 直接在终端中调用底层命令，无需任何图形库。 |
+
+*(注：✅ 代表完美支持，❌ 代表不支持，🛠️ 代表需要一定开发基础自行编译)*
